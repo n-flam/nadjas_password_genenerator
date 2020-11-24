@@ -32,7 +32,42 @@
         </div>
         <!-- End Main Header -->
 
-        <!-- Start Main Body -->
+
+        <!-- Start length of the password -->
+        <div class=" text-center">
+          <p>Please choose between 8 and 128 characters:</p>
+          <label>Length :</label>
+                <input type="number" maxlength="128" minlength="8" id="length">
+        </div>
+        <!-- End length of the password -->
+
+    
+        <!-- Start Checkbox -->
+        <form class="form-check">
+          <div class="row px-4 py-2">
+            <div class="col">
+              <input class="form-check-input" type="checkbox" value="" id="upper">
+              <label class="form-check-label" for="upper">Enable UpperCase</label>
+            </div>
+            <div class="col">
+              <input class="form-check-input" type="checkbox" value="" id="lower">
+              <label class="form-check-label" for="lower">Enable LowerCase</label>
+            </div>
+          </div>
+          <div class="row px-4 py-2">
+            <div class="col">
+              <input class="form-check-input" type="checkbox" value="" id="number">
+              <label class="form-check-label" for="number">Enable Numbers</label>
+            </div>
+            <div class="col">
+              <input class="form-check-input" type="checkbox" value="" id="symbol">
+              <label class="form-check-label" for="symbol">Enable Symbols</label>
+            </div>
+          </div>
+        </form>
+        <!-- End Checkbox -->
+
+        <!-- Start Show PassWord -->
         <div class="card-body">
           <textarea
             readonly
@@ -41,33 +76,7 @@
             aria-label="Generated Password"
           ></textarea>
         </div>
-        <!-- End Main Body -->
-
-        <!-- Start Checkbox -->
-        <form class="form-check">
-          <div class="row px-4 py-2">
-            <div class="col">
-              <input class="form-check-input" type="checkbox" value="" id="upper">
-              <label class="form-check-label" for="upper">UpperCase</label>
-            </div>
-            <div class="col">
-              <input class="form-check-input" type="checkbox" value="" id="lower">
-              <label class="form-check-label" for="lower">LowerCase</label>
-            </div>
-          </div>
-          <div class="row px-4 py-2">
-            <div class="col">
-              <input class="form-check-input" type="checkbox" value="" id="numbers">
-              <label class="form-check-label" for="numbers">Numbers</label>
-            </div>
-            <div class="col">
-              <input class="form-check-input" type="checkbox" value="" id="symbols">
-              <label class="form-check-label" for="symbols">Symbols</label>
-            </div>
-          </div>
-        </form>
-        <!-- End Checkbox -->
-        
+        <!-- End Show PassWord -->
 
         <!-- Start Main Footer -->
         <div class="card-footer">
