@@ -37,7 +37,7 @@
         <div class=" text-center">
           <p>Please choose between 8 and 128 characters:</p>
           <label>Length :</label>
-                <input type="number" maxlength="128" minlength="8" id="length">
+                <input type="number"  min="8" max="128" id="length">
         </div>
         <!-- End length of the password -->
 
@@ -46,32 +46,35 @@
         <form class="form-check">
           <div class="row px-4 py-2">
             <div class="col">
-              <input class="form-check-input" type="checkbox" value="" id="upper">
+              <input class="form-check-input" checked type="checkbox" id="upper">
               <label class="form-check-label" for="upper">Enable UpperCase</label>
             </div>
             <div class="col">
-              <input class="form-check-input" type="checkbox" value="" id="lower">
+              <input class="form-check-input" checked type="checkbox" id="lower">
               <label class="form-check-label" for="lower">Enable LowerCase</label>
             </div>
           </div>
           <div class="row px-4 py-2">
             <div class="col">
-              <input class="form-check-input" type="checkbox" value="" id="number">
+              <input class="form-check-input" checked type="checkbox" id="number">
               <label class="form-check-label" for="number">Enable Numbers</label>
             </div>
             <div class="col">
-              <input class="form-check-input" type="checkbox" value="" id="symbol">
+              <input class="form-check-input" checked type="checkbox" id="symbol">
               <label class="form-check-label" for="symbol">Enable Symbols</label>
             </div>
           </div>
         </form>
         <!-- End Checkbox -->
 
-        <!-- Start Show PassWord -->
+        <!-- Start Show PassWord 
+            Tis part of the code was provided -->
         <div class="card-body">
-          <textarea
+          <textarea 
+            rows="3"
+            cols="12"
             readonly
-            id="password"
+            id="answer"
             placeholder="Your Secure Password"
             aria-label="Generated Password"
           ></textarea>

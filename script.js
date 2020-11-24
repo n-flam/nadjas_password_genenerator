@@ -33,7 +33,7 @@ var upperEl = document.getElementById("upper");
 var symbolEl = document.getElementById("symbol");
 var copyEl = document.getElementById("copy");
 // Assignment Code
-var generateBtn = document.querySelector("generate");
+var generateBtn = document.getElementById("generate");
 
 //var generateEl = document.getElementById("generate");
 //var generateBtn = document.querySelector("#generate");
@@ -48,7 +48,8 @@ const randomFunc = {
 
 
 //Add/generate event listener
-generateEl.addEventListener('click', () =>{
+generateBtn.addEventListener('click', () => {
+
   const length = +lengthEl.value;
   const hasUpper = upperEl.checked;
   const hasLower = lowerEl.checked;
@@ -59,7 +60,7 @@ answerEl.innerText = generatePassword(hasUpper, hasLower, hasNumber, hasSymbol, 
 });
 
 //Generate Password Function
-function generatePassword(upper, lower, number, symbol, length){
+function generatePassword(upper, lower, number, symbol, length) {
   let generatedPassword = "";
 
   const typesCount = upper + lower + number + symbol;

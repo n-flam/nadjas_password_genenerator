@@ -72,6 +72,11 @@ header {
   clear: both;
 }
 
+textarea {
+  width: 100%;
+}
+
+
 .btn {
   border: none;
   background-color: hsl(360, 91%, 36%);
