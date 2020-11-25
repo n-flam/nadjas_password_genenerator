@@ -22,7 +22,6 @@ function getRandomUpperCase(){
 }
 
 //Communicating with the DOM (html document)
-
 var answerEl = document.getElementById("answer");
 var lengthEl = document.getElementById("length");
 var numberEl = document.getElementById("number");
@@ -30,12 +29,12 @@ var lowerEl = document.getElementById("lower");
 var upperEl = document.getElementById("upper");
 var symbolEl = document.getElementById("symbol");
 var copyEl = document.getElementById("copy");
+
 // Assignment Code
 var generateBtn = document.getElementById("generate");
 
-//var generateEl = document.getElementById("generate");
-//var generateBtn = document.querySelector("#generate");
 
+// random Constant
 const randomFunc = {
   upper : getRandomUpperCase,
   lower : getRandomLowerCase,
@@ -86,18 +85,3 @@ function generatePassword(upper, lower, number, symbol, length) {
 
 
 
-// Assignment Code
-// var generateBtn = document.querySelector("#generate");
-
-// Write password to the #password input
-// function writePassword() {
-  // var password = generatePassword();
-  // var passwordText = document.querySelector("#password");
-
-  // passwordText.value = password;
-
-// }
-
-
-// Add event listener to generate button
-// generateBtn.addEventListener("click", writePassword);

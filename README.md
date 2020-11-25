@@ -40,9 +40,11 @@ https://n-flam.github.io/nadjas_password_genenerator/index.html
 
 GitHub URL
 
+https://github.com/n-flam/nadjas_password_genenerator.git
 
 
 ## Mock-Up
 
 The following image shows the web application's appearance and functionality:
+
 
