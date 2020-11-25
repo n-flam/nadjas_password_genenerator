@@ -47,4 +47,6 @@ https://github.com/n-flam/nadjas_password_genenerator.git
 
 The following image shows the web application's appearance and functionality:
 
+https://github.com/n-flam/nadjas_password_genenerator/blob/main/blob:main/mock_up.png
+
 
