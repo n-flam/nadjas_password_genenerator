@@ -36,8 +36,11 @@
         <!-- Start length of the password -->
         <div class="text-center py-3">
           <p>Please choose between 8 and 128 characters:</p>
-          <label>Length :</label>
-                <input type="number" value="8" min="8" max="128" readonly id="length">
+          <form class="text-center py-3">
+            <p>Please choose between 8 and 128 characters:</p>
+            <label for="length">Length :</label>
+                  <input type="number" name="rangeInput" value="8" min="8" max="128" id="length">
+          </form>
         </div>
         <!-- End length of the password -->
 
