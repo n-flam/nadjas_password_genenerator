@@ -21,8 +21,6 @@ function getRandomUpperCase(){
   return symbol[Math.floor(Math.random()*symbol.length)];
 }
 
-
-
 //Communicating with the DOM (html document)
 
 var answerEl = document.getElementById("answer");
